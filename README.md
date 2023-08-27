@@ -4,17 +4,19 @@ This is a custom database for abricate to identify enterotoxin genes in S. aureu
 
 ## Installation
 
-use this in a conda environment for abricate
+If abricate was installed in conda environment name as `abricate`, you can install like this:
 
-```
-$ cp -R enterotoxin $CONDA_PREFIX/db/
-$ abricate --setupdb
+```bash
+$ git clone https://github.com/enterotoxin
+$ conda activate abricate
+(abricate)$ cp -R enterotoxin $CONDA_PREFIX/db/
+(abricate)$ abricate --setupdb
 ```
 
 ## Usage
 
 scanning genomes
 
-```
+```bash
 $ abricate --db enterotoxin genomes.fasta
 ```
