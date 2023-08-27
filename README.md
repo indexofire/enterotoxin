@@ -8,6 +8,7 @@ If abricate was installed in conda environment name as `abricate`, you can insta
 
 ```bash
 $ git clone https://github.com/enterotoxin
+$ cd enterotoxin
 $ conda activate abricate
 (abricate)$ cp -R enterotoxin $CONDA_PREFIX/db/
 (abricate)$ abricate --setupdb
